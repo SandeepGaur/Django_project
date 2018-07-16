@@ -10,10 +10,15 @@
   </head>
 
   <body>
+    <div style="background-color: #d1e7ff; ">
+      <div class="container" >
+        <h1>Sandeep Gaur</h1>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
        <div class="container">
-      <a class="navbar-brand text-white" href="{% url 'index' %}">Home</a>
+      <a class="navbar-brand font-weight-bold" href="{% url 'index' %}">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,16 +27,22 @@
 
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="{% url 'myself1' %}">My Self <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="{% url 'skills' %}"> Skills And Interest <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="{% url 'myfamily' %}">MyFamily <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="{% url 'portfolio' %}">Portfolio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="{% url 'myedu' %}">MyEducation <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="{% url 'blog' %}">Blog <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="{% url 'mywork' %}">My Work <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="{% url 'social' %}">Social Media <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="{% url 'gallary' %}">Gallary <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="{% url 'contact' %}">Contact <span class="sr-only">(current)</span></a>
           </li>
 
         </ul>
@@ -39,6 +50,8 @@
   </div>
 
       </nav>
+
+        </div>
 
 
 

@@ -18,8 +18,10 @@ from first_app import views
 
 urlpatterns = [
     path('', views.index, name = 'index'),
-    path('myself1/', views.myself1, name = 'myself1'),
-    path('myfamily/', views.myfamily, name = 'myfamily'),
-    path('myedu/', views.myedu, name = 'myedu'),
-    path('mywork/', views.mywork, name = 'mywork'),
-]
+    path('skills/', views.skills, name = 'skills'),
+    path('portfolio/', views.portfolio, name = 'portfolio'),
+    path('blog/', views.blog, name = 'blog'),
+    path('social/', views.social, name = 'social'),
+    path('gallary/', views.gallary, name = 'gallary'),
+    path('contact/', views.contact, name = 'contact'),
+    ]
