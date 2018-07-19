@@ -1,0 +1,39 @@
+{% extends 'first_app/base.html' %}
+
+{% block content %}
+
+<h1>blog page</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+
+      <th scope="col">Technology and Science Blogs</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {% if blogs %}
+    {% for b in blogs %}
+    <tr>
+
+      <td>{{b.title}}</td>
+
+    </tr>
+    <tr>
+
+      <td>{{b.content}}</td>
+
+    </tr>
+    <tr>
+
+      <td>{{b.author}}</td>
+      <td>{{b.pub_date}}</td>
+
+    </tr>
+    {% endfor %}
+    {% endif %}
+  </tbody>
+</table>
+
+{% endblock %}

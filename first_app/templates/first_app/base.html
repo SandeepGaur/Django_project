@@ -7,18 +7,20 @@
 
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
   </head>
 
   <body>
-    <div style="background-color: #d1e7ff; ">
-      <div class="container" >
+    <div style="background-color: #99ccff; font-family: 'Rancho', cursive; font-size : 30px;">
+      <div class="container" style="font-family: 'Lobster', cursive; font-size : 50px;" >
         <h1>Sandeep Gaur</h1>
 
       </div>
 
     <nav class="navbar navbar-expand-lg navbar-light ">
        <div class="container">
-      <a class="navbar-brand font-weight-bold" href="{% url 'index' %}">Home</a>
+      <a class="navbar-brand font-weight-bold" href="{% url 'index' %}" style="font-family: 'Rancho', cursive; font-size : 30px;">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,7 +35,7 @@
             <a class="nav-link font-weight-bold" href="{% url 'portfolio' %}">Portfolio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="{% url 'blog' %}">Blog <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="{% url 'my_blog' %}">Blog <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="{% url 'social' %}">Social Media <span class="sr-only">(current)</span></a>
